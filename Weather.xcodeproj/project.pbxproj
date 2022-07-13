@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		22F286B3287F1E950072D787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F286B2287F1E950072D787 /* AppDelegate.swift */; };
 		22F286B5287F1E950072D787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F286B4287F1E950072D787 /* SceneDelegate.swift */; };
-		22F286B7287F1E950072D787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F286B6287F1E950072D787 /* ViewController.swift */; };
 		22F286BA287F1E950072D787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F286B8287F1E950072D787 /* Main.storyboard */; };
 		22F286BD287F1E950072D787 /* Weather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F286BB287F1E950072D787 /* Weather.xcdatamodeld */; };
 		22F286BF287F1E980072D787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F286BE287F1E980072D787 /* Assets.xcassets */; };
 		22F286C2287F1E980072D787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F286C0287F1E980072D787 /* LaunchScreen.storyboard */; };
+		22F286CA287F211D0072D787 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F286C9287F211D0072D787 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22F286AF287F1E950072D787 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F286B2287F1E950072D787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F286B4287F1E950072D787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22F286B6287F1E950072D787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22F286B9287F1E950072D787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F286BC287F1E950072D787 /* Weather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weather.xcdatamodel; sourceTree = "<group>"; };
 		22F286BE287F1E980072D787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F286C1287F1E980072D787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F286C3287F1E980072D787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F286C9287F211D0072D787 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				22F286B2287F1E950072D787 /* AppDelegate.swift */,
+				22F286C9287F211D0072D787 /* MainViewController.swift */,
 				22F286B4287F1E950072D787 /* SceneDelegate.swift */,
-				22F286B6287F1E950072D787 /* ViewController.swift */,
 				22F286B8287F1E950072D787 /* Main.storyboard */,
 				22F286BE287F1E980072D787 /* Assets.xcassets */,
 				22F286C0287F1E980072D787 /* LaunchScreen.storyboard */,
@@ -141,9 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F286BD287F1E950072D787 /* Weather.xcdatamodeld in Sources */,
-				22F286B7287F1E950072D787 /* ViewController.swift in Sources */,
 				22F286B3287F1E950072D787 /* AppDelegate.swift in Sources */,
 				22F286B5287F1E950072D787 /* SceneDelegate.swift in Sources */,
+				22F286CA287F211D0072D787 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
